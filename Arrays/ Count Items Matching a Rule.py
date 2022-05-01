@@ -1,6 +1,3 @@
-from itertools import count
-
-
 items = [["phone","blue","pixel"],["computer","silver","lenovo"],["phone","gold","iphone"]]
 ruleKey = "color" 
 ruleValue = "silver"
@@ -10,6 +7,4 @@ for i in items:
     if i[d[ruleKey]] == ruleValue:
         count+=1
 
-
 print(count)
-        
