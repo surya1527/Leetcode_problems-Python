@@ -1,5 +1,3 @@
-from pyparsing import nums
-
 
 nums = [8,1,2,2,3]
 
