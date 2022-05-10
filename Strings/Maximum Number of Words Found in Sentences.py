@@ -4,5 +4,4 @@ for i in sentences:
     words = i.split(" ")
     if len(words)>a:
         a = len(words)
-
 print(a)
